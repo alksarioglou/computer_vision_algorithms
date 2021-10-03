@@ -31,6 +31,7 @@ def main():
     parser.add_argument("-aperture_y", help="size of the image plane in inch (vertical)",
                         type=float, default=0.945)
 
+    
     args = parser.parse_args()
 
     left = cv2.imread(args.left, -1)
